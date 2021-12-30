@@ -12,3 +12,29 @@
 - **Telegram** : [Artyom_PK](https://t.me/Artyom_PK)
 
 ---
+
+## About me:
+
+I am an aspiring frontend developer!
+
+## Skills:
+
+- HTML
+- CSS
+- Javascript (fundamentals)
+- Python (advanced)
+- Git / GitHub
+- Figma
+- Photoshop
+
+## Code Example:
+
+```javascript
+console.log("Hello");
+```
+
+## Education
+
+## Projects
+
+## Languages
