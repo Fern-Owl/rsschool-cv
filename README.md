@@ -1,1 +1,1 @@
-# rsschool-cv
+https://fern-owl.github.io/rsschool-cv/
