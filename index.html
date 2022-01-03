@@ -5,9 +5,110 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>My CV</title>
   </head>
   <body>
-    <div class="container">My CV</div>
+    <header>
+      <h1 class="head">Artyom Kozadaev</h1>
+      <h2 class="head">Frontend Developer</h2>
+    </header>
+    <main>
+      <aside class="column-left">
+        <img src="./img/image.jpg" alt="avatar" class="avatar" />
+        <h2 class="about-head">About me:</h2>
+        <p class="about-text">
+          I am an aspiring frontend developer! <br />
+          I am very passionate about programming and I love everything about the
+          World Wide Web.
+        </p>
+      </aside>
+      <div class="column-right">
+        <h2>Skills:</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Javascript (fundamentals)</li>
+          <li>Python (beginner)</li>
+          <li>Git / GitHub</li>
+          <li>Figma</li>
+          <li>Photoshop</li>
+        </ul>
+
+        <h2>Education:</h2>
+        <ul>
+          <li>Kuban State University: Bachelor's degree, History.</li>
+          <li>
+            Kuban State University: Postgraduate education, Oriental studies.
+          </li>
+          <li>
+            Udemy:
+            <a
+              href="https://www.udemy.com/course/html5-fundamentals-for-beginners/"
+              >HTML5 and CSS3 Fundamentals.</a
+            >
+          </li>
+          <li>
+            Stepik:
+            <a href="https://stepik.org/course/38218/info"
+              >Веб-разработка для начинающих: HTML и CSS.</a
+            >
+          </li>
+          <li>
+            RS School:
+            <a href="https://rs.school/">JS / FRONT-END (in progress)</a>
+          </li>
+          <li>
+            JetBrains Academy:
+            <a href="https://hyperskill.org/tracks"
+              >Frontend Developer (in progress)</a
+            >
+          </li>
+        </ul>
+
+        <h2>Code Example:</h2>
+        <pre class="code">
+        function even_or_odd(number) {
+          if (number % 2 === 0) {
+            return "Even";
+          } else {
+            return "Odd";
+          }
+        }
+        </pre>
+
+        <h2>Projects:</h2>
+        <ul>
+          <li>
+            <a href="https://github.com/Fern-Owl/GFM_Calculator"
+              >Simple calculator written in pure Javascript.</a
+            >
+          </li>
+          <li>
+            <a href="https://github.com/Fern-Owl/GFM_RPSLS_Game"
+              >Rock, Paper, Scissors, Lizard, Spock Game</a
+            >
+          </li>
+        </ul>
+
+        <h2>Languages:</h2>
+        <ul>
+          <li>Russian (Native)</li>
+          <li>English (Upper-intermediate)</li>
+          <li>Japanese (Basic, studied at the University)</li>
+        </ul>
+      </div>
+    </main>
+    <footer>
+      <h2>Contacts:</h2>
+      <ul>
+        <li><a href="anaximandrosiii@gmail.com">E-mail</a></li>
+        <li><a href="https://github.com/Fern-Owl">GitHub</a></li>
+        <li><a href="https://t.me/Artyom_PK">Telegram</a></li>
+      </ul>
+
+      <a href="https://rs.school/"
+        ><img src="./img/rsschool.svg" alt="RS School" class="favicon" />
+      </a>
+    </footer>
   </body>
 </html>
